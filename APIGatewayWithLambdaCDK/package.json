@@ -1,0 +1,24 @@
+{
+  "name": "api_gateway_with_lambda_cdk",
+  "version": "0.1.0",
+  "bin": {
+    "api_gateway_with_lambda_cdk": "bin/api_gateway_with_lambda_cdk.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "aws-cdk": "2.38.0",
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "^1.171.0",
+    "@aws-cdk/aws-iam": "^1.171.0",
+    "@aws-cdk/aws-lambda": "^1.171.0",
+    "@aws-cdk/core": "^1.171.0",
+    "aws-cdk-lib": "2.38.0",
+    "constructs": "^10.0.0"
+  }
+}
